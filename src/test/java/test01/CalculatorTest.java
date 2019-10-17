@@ -12,6 +12,4 @@ public class CalculatorTest {
 		int actual = Calculator.add(1,2);
 		assertThat(actual, is(3));
 	}
-	
-
 }
