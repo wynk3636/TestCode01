@@ -8,7 +8,9 @@ public class PdfTest {
 
 	@Test
 	public void CreateTest() {
-		boolean onCreatePdf = PdfFunction.CreatePdf();
+		PdfFunction pdf =  new PdfFunction();
+		
+		boolean onCreatePdf = pdf.CreatePdf();
 		assertTrue(onCreatePdf);
 	}
 

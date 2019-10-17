@@ -9,7 +9,9 @@ public class CalculatorTest {
 
 	@Test
 	public void testAdd() {
-		int actual = Calculator.add(1,2);
+		Calculator calc = new Calculator();
+		
+		int actual = calc.add(1,2);
 		assertThat(actual, is(3));
 	}
 }

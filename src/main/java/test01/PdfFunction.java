@@ -10,7 +10,7 @@ import org.apache.pdfbox.pdmodel.font.PDType1Font;
 
 public class PdfFunction {
 	
-	public static boolean CreatePdf() {
+	public boolean CreatePdf() {
 		try {
 			PDDocument document = new PDDocument();
 			
